@@ -7,8 +7,12 @@
     color: white;
     font-family: 'Lato', sans-serif;
     border: 1px solid red;
+}
+body{
     background-color: black;
 }
+
+/* Header */
 header{
     position: fixed;
     display: flex;
@@ -22,21 +26,59 @@ header{
 }
 div > svg{
     height: 20px;
-    background-color: grey;
 }
 header > div{
     background-color: grey;
     padding: 5px;
     border-radius: 5px;
 }
-header > div >h4{
-    background-color: grey;
-}
 header:first-child div{
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: capitalize;
-    text-align: center;
     gap: 5px;
+}
+
+/* Img main */
+.container-flex{
+    display: flex;
+    justify-content:center;
+    width: 90vw;
+    margin: 12vh auto;
+    flex-wrap: wrap;
+}
+.foto-flex{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.foto-flex > img{
+    width: 12.5vw;
+}
+.nameplate{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 5px;
+    background-color: rgb(128, 128, 128, 0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
 }

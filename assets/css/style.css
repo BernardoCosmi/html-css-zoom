@@ -1,5 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid red;
+    background-color: black;
+}
+header{
+    position: fixed;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    gap: 10px;
+    height: 10vh;
+    width: 100vw;
+    top: 0;
+    padding: 5px;
+}
+div > svg{
+    height: 20px;
+    background-color: grey;
+}
+header > div{
+    background-color: grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+header > div >h4{
+    background-color: grey;
+}
+header:first-child div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    text-align: center;
+    gap: 5px;
 }

@@ -85,7 +85,6 @@ footer{
     right: 0;
     gap: 10px;
 }
-
 li>svg{
     width: 4vw;
     height: 4vh;
@@ -141,13 +140,7 @@ li>svg{
     font-weight: 700;
 }
 
-
-
-
-
-
-
-
+/* Clearfix */
 .clearfix::after{
     content:"";
     display: table;

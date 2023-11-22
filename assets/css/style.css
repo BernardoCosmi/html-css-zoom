@@ -23,6 +23,7 @@ header{
     width: 100vw;
     top: 0;
     padding: 5px;
+    z-index: 1;
 }
 div > svg{
     height: 20px;
@@ -52,21 +53,25 @@ header:first-child div{
     position: relative;
     height: fit-content;
     width: fit-content;
-    padding: 5px;
+    padding: 5px 3px;
     display: flex;
     align-items: center;
 }
 .foto-flex > img{
-    width: 12.5vw;
+    width: 12vw;
 }
 .nameplate{
     position: absolute;
     display: flex;
     align-items: center;
+    min-width: 35%;
+    max-width: 60%;
+    gap: 2px;
     bottom: 5px;
     background-color: rgb(128, 128, 128, 0.7);
 }
 
+/* Footer */
 
 
 
